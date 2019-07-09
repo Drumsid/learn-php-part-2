@@ -90,3 +90,12 @@ ol li {
 	color: #2A4F6F;
 	background-color: transparent;
 }
+.myNotice {
+	color: red;
+}
+.postGbook {
+	border: 1px solid gray;
+	border-radius: 3px;
+	padding: 10px 15px;
+	margin: 10px 0;
+}

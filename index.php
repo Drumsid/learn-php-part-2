@@ -1,11 +1,11 @@
 <?php 
+  ob_start(); // Включение буферизации вывода чтоб header не ругялся со страницы gbook.inc.php
   include 'inc/headers.inc.php'; 
   include 'inc/cookie.inc.php'; 
 
   define('PATH_LOG', 'path.log');
   include 'inc/log.inc.php';
 ?>
-
 <!DOCTYPE html>
 <html>
 

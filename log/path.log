@@ -10,65 +10,179 @@
 01-07-2019 23:02:46 | /index.php?id=log | http://specialist2/index.php
 01-07-2019 23:07:55 | /index.php?id=log | http://specialist2/index.php
 01-07-2019 23:07:58 | /index.php?id=log | http://specialist2/index.php
-01-07-2019 23:08:14 | /index.php | http://specialist2/index.php?id=log
-01-07-2019 23:08:15 | /index.php?id=contact | http://specialist2/index.php
-01-07-2019 23:08:16 | /index.php?id=about | http://specialist2/index.php?id=contact
-01-07-2019 23:08:17 | /index.php?id=info | http://specialist2/index.php?id=about
-01-07-2019 23:08:18 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:08:34 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:08:58 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:09:17 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:09:50 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:11:08 | /index.php | 
-01-07-2019 23:12:35 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:13:15 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:13:26 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:13:38 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:14:22 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:14:32 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:14:43 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:14:51 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:15:15 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:15:26 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:16:08 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:16:34 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:16:45 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:17:05 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:18:11 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:18:24 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:18:32 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:18:40 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:19:10 | /index.php?id=log | http://specialist2/index.php?id=info
-01-07-2019 23:25:45 | /index.php | http://specialist2/index.php?id=log
-01-07-2019 23:25:47 | /index.php?id=contact | http://specialist2/index.php
-01-07-2019 23:25:48 | /index.php?id=about | http://specialist2/index.php?id=contact
-01-07-2019 23:25:50 | /index.php?id=log | http://specialist2/index.php?id=about
-01-07-2019 23:26:03 | /index.php | http://specialist2/index.php?id=log
-01-07-2019 23:31:50 | /index.php?id=log | http://specialist2/index.php
-01-07-2019 23:31:54 | /index.php | http://specialist2/test/index.php
-01-07-2019 23:31:55 | /index.php?id=log | http://specialist2/index.php
-01-07-2019 23:32:02 | /index.php?id=contact | http://specialist2/index.php?id=log
-01-07-2019 23:32:04 | /index.php?id=log | http://specialist2/index.php?id=contact
-01-07-2019 23:32:38 | /index.php?id=log | http://specialist2/index.php?id=contact
-01-07-2019 23:32:39 | /index.php?id=log | http://specialist2/index.php?id=contact
-01-07-2019 23:32:41 | /index.php?id=log | http://specialist2/index.php?id=contact
-01-07-2019 23:32:47 | /index.php?id=log | http://specialist2/index.php?id=log
-01-07-2019 23:32:52 | /index.php | http://specialist2/index.php?id=log
-01-07-2019 23:32:54 | /index.php?id=contact | http://specialist2/index.php
-01-07-2019 23:32:54 | /index.php?id=about | http://specialist2/index.php?id=contact
-01-07-2019 23:32:55 | /index.php?id=info | http://specialist2/index.php?id=about
-01-07-2019 23:32:57 | /index.php | http://specialist2/test/index.php
-01-07-2019 23:32:58 | /index.php?id=log | http://specialist2/index.php
-01-07-2019 23:36:11 | /index.php | http://specialist2/index.php?id=log
-01-07-2019 23:36:13 | /index.php?id=log | http://specialist2/index.php
-01-07-2019 23:42:40 | log | http://specialist2/index.php
-01-07-2019 23:42:41 | index | http://specialist2/index.php?id=log
-01-07-2019 23:42:42 | contact | http://specialist2/index.php
-01-07-2019 23:42:43 | about | http://specialist2/index.php?id=contact
-01-07-2019 23:42:44 | info | http://specialist2/index.php?id=about
-01-07-2019 23:42:47 | index | http://specialist2/test/index.php
-01-07-2019 23:42:48 | log | http://specialist2/index.php
-01-07-2019 23:45:51 | index | index.php?id=log
-01-07-2019 23:45:52 | contact | index.php
-01-07-2019 23:45:52 | about | index.php?id=contact
-01-07-2019 23:45:54 | log | index.php?id=about
+02-07-2019 21:45:33 | /index.php?id=log | http://specialist2/index.php?id=about
+02-07-2019 21:45:36 | /index.php | http://specialist2/index.php?id=log
+02-07-2019 21:45:38 | /index.php?id=contact | http://specialist2/index.php
+02-07-2019 21:45:39 | /index.php?id=about | http://specialist2/index.php?id=contact
+02-07-2019 21:45:40 | /index.php?id=log | http://specialist2/index.php?id=about
+1562095483|index|index.php?id=log
+1562095486|about|index.php
+1562095487|contact|index.php?id=about
+1562095488|info|index.php?id=contact
+1562095501|index|index.php
+1562095503|log|index.php
+1562523701|log|index.php
+1562523704|contact|index.php?id=log
+1562523706|info|index.php?id=contact
+1562523707|index|index.php?id=info
+1562524184|contact|index.php
+1562524185|index|index.php?id=contact
+1562524186|about|index.php
+1562524186|info|index.php?id=about
+1562524189|index|index.php
+1562524262|index|index.php
+1562524263|index|index.php
+1562524263|index|index.php
+1562525655|index|index.php
+1562525657|index|index.php
+1562525658|gbook|index.php
+1562525725|gbook|index.php?id=gbook
+1562525900|gbook|index.php?id=gbook
+1562525924|gbook|index.php?id=gbook
+1562525975|index|index.php?id=gbook
+1562525977|gbook|index.php
+1562526312|gbook|index.php
+1562526603|gbook|index.php
+1562526805|gbook|index.php
+1562526835|gbook|index.php
+1562526836|gbook|index.php
+1562526836|gbook|index.php
+1562526836|gbook|index.php
+1562526836|gbook|index.php
+1562526836|gbook|index.php
+1562526837|gbook|index.php
+1562526837|gbook|index.php
+1562526837|gbook|index.php
+1562526837|gbook|index.php
+1562526837|gbook|index.php
+1562526837|gbook|index.php
+1562526842|gbook|index.php
+1562526842|gbook|index.php
+1562526842|gbook|index.php
+1562526842|gbook|index.php
+1562526842|gbook|index.php
+1562526871|gbook|index.php
+1562526948|gbook|index.php
+1562526960|gbook|index.php
+1562526970|gbook|index.php
+1562527005|gbook|index.php?id=gbook
+1562527121|gbook|index.php?id=gbook
+1562527153|gbook|index.php?id=gbook
+1562527194|gbook|index.php?id=gbook
+1562527206|gbook|index.php?id=gbook
+1562527660|gbook|index.php?id=gbook
+1562527995|gbook|index.php?id=gbook
+1562528043|gbook|index.php?id=gbook
+1562528064|gbook|index.php?id=gbook
+1562528078|gbook|index.php?id=gbook
+1562528086|gbook|index.php?id=gbook
+1562528149|gbook|index.php?id=gbook
+1562528152|gbook|index.php?id=gbook
+1562528209|gbook|index.php?id=gbook
+1562528297|gbook|index.php?id=gbook
+1562528312|gbook|index.php?id=gbook
+1562528361|gbook|index.php?id=gbook
+1562528370|gbook|index.php?id=gbook
+1562606532|gbook|index.php?id=gbook
+1562606791|gbook|index.php?id=gbook
+1562606793|gbook|index.php?id=gbook
+1562606817|gbook|index.php?id=gbook
+1562607561|gbook|index.php?id=gbook
+1562607654|gbook|index.php?id=gbook
+1562608462|gbook|index.php?id=gbook
+1562608470|gbook?del=1|index.php?id=gbook
+1562608479|gbook|index.php?id=gbook?del=1
+1562608497|gbook|index.php?id=gbook?del=1
+1562608498|gbook|index.php?id=gbook?del=1
+1562608536|gbook|index.php?id=gbook?del=1
+1562608563|gbook|index.php?id=gbook?del=1
+1562608648|gbook|index.php?id=gbook?del=1
+1562608786|gbook|index.php?id=gbook?del=1
+1562608913|gbook|index.php?id=gbook?del=1
+1562608914|gbook|index.php?id=gbook?del=1
+1562608985|gbook|index.php?id=gbook?del=1
+1562609002|gbook|index.php?id=gbook?del=1
+1562609006|gbook|index.php?id=gbook?del=1
+1562609019|gbook|index.php?id=gbook?del=1
+1562609024|gbook|index.php?id=gbook?del=1
+1562609050|gbook|index.php?id=gbook?del=1
+1562609063|gbook|index.php?id=gbook?del=1
+1562609072|gbook|index.php?id=gbook
+1562609135|gbook|index.php?id=gbook
+1562609202|gbook|index.php?id=gbook
+1562609205|gbook|index.php?id=gbook
+1562609681|gbook|index.php?id=gbook
+1562609682|gbook|index.php?id=gbook
+1562609683|gbook|index.php?id=gbook
+1562609718|gbook|index.php?id=gbook
+1562609720|gbook?del=50|index.php?id=gbook
+1562609723|gbook|index.php?id=gbook?del=50
+1562609725|gbook?del=50|index.php?id=gbook
+1562609811|gbook?del=50|index.php?id=gbook
+1562609811|gbook?del=50|index.php?id=gbook
+1562609812|gbook?del=50|index.php?id=gbook
+1562609815|gbook|index.php?id=gbook?del=50
+1562609820|gbook?del=48|index.php?id=gbook
+1562609840|gbook|index.php?id=gbook?del=48
+1562609849|gbook?del=50|
+1562609873|gbook|index.php?id=gbook?del=50
+1562609909|gbook|index.php?id=gbook
+1562609914|gbook?del=49|index.php?id=gbook
+1562609916|gbook|index.php?id=gbook?del=49
+1562610093|gbook|index.php?id=gbook?del=49
+1562610153|contact|index.php?id=gbook
+1562610154|about|index.php?id=contact
+1562610155|info|index.php?id=about
+1562610158|index|index.php
+1562610159|gbook|index.php
+1562610165|gbook?del=51|index.php?id=gbook
+1562610171|gbook|index.php?id=gbook?del=51
+1562610218|gbook|index.php?id=gbook
+1562610219|gbook|index.php?id=gbook
+1562610221|gbook|index.php?id=gbook
+1562610227|gbook|index.php?id=gbook&del=49
+1562610231|gbook|index.php?id=gbook&del=50
+1562610232|gbook|index.php?id=gbook&del=50
+1562610234|gbook|index.php?id=gbook&del=50
+1562610297|gbook|index.php?id=gbook&del=50
+1562610299|gbook|index.php?id=gbook&del=47
+1562610307|gbook|index.php?id=gbook&del=49
+1562610314|gbook|index.php?id=gbook&del=49
+1562610329|gbook|index.php?id=gbook&del=52
+1562612677|gbook|index.php?id=gbook&del=52
+1562612678|gbook|index.php?id=gbook&del=52
+1562612685|gbook|index.php?id=gbook&del=52
+1562612694|gbook|index.php?id=gbook&del=52
+1562613321|gbook|index.php?id=gbook&del=52
+1562613323|gbook|index.php?id=gbook&del=53
+1562613866|gbook|index.php?id=gbook&del=53
+1562613871|gbook|index.php?id=gbook&del=53
+1562613873|gbook|index.php?id=gbook&del=53
+1562613878|gbook|index.php?id=gbook&del=54
+1562614102|gbook|index.php?id=gbook&del=54
+1562614107|gbook|index.php?id=gbook&del=54
+1562614144|gbook|index.php?id=gbook&del=54
+1562614149|gbook|index.php?id=gbook&del=54
+1562614151|gbook|index.php?id=gbook
+1562614157|gbook|index.php?id=gbook
+1562614209|gbook|index.php?id=gbook
+1562614210|gbook|index.php?id=gbook
+1562614213|gbook|index.php?id=gbook
+1562614215|gbook|index.php?id=gbook&del=55
+1562614217|gbook|index.php?id=gbook&del=56
+1562614221|gbook|index.php?id=gbook&del=57
+1562614223|gbook|index.php?id=gbook&del=57
+1562614671|gbook|index.php?id=gbook&del=57
+1562614676|gbook|index.php?id=gbook&del=58
+1562614676|gbook|index.php?id=gbook&del=58
+1562614679|gbook|index.php?id=gbook&del=58
+1562615133|gbook|index.php?id=gbook&del=58
+1562615142|gbook|index.php?id=gbook&del=58
+1562615843|gbook|index.php?id=gbook&del=58
+1562615846|gbook|index.php?id=gbook&del=59
+1562615846|gbook|index.php?id=gbook&del=59
+1562615850|gbook|index.php?id=gbook&del=59
+1562616068|gbook|index.php?id=gbook&del=59
+1562616074|gbook|index.php?id=gbook&del=60
+1562616074|gbook|index.php?id=gbook&del=60
+1562616076|gbook|index.php?id=gbook&del=60

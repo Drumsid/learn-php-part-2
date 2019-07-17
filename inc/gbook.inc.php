@@ -9,6 +9,7 @@ $link = mysqli_connect(DB_HOST, DB_LOGIN, DB_PASSWORD, DB_NAME) or die("Ошиб
 
 
 /* Основные настройки */
+
 function clearStr ($data) { // функция для фильтрации данных из формы
 	global $link; // объявляем переменную глобальной чтоб ее было видно внутри функции
 	$data = trim(strip_tags($data)); // trim удаляет пробелы по краям, strip_tags удаляет тэги

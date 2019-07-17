@@ -8,6 +8,7 @@ require "secure/session.inc.php";
 	<title>Форма добавления товара в каталог</title>
 </head>
 <body>
+	
 	<form action="save2cat.php" method="post">
 		<p>Название: <input type="text" name="title" size="100">
 		<p>Автор: <input type="text" name="author" size="50">

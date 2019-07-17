@@ -1,6 +1,10 @@
 <?
 require_once "secure/session.inc.php";
 require_once "secure/secure.inc.php";
+
+if (isset($_GET['logout'])) {
+	logOut();
+}
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -17,5 +21,36 @@ require_once "secure/secure.inc.php";
 		<li><a href='secure/create_user.php'>Добавить пользователя</a></li>
 		<li><a href='index.php?logout'>Завершить сеанс</a></li>
 	</ul>
+	<?php 
+
+
+
+	// $pswd = '1234';
+	// $password = '1234';
+	// $hash = password_hash($password, PASSWORD_BCRYPT);
+
+	// $result = "denis:$2y$10$5og9sGryTNhj3GbJWdp7zOAufcwjbGXyoN7HgBEj7h9CZ1RmcDwWy";
+	// list($login, $hash) = explode(':', $result);
+
+
+	// echo $login . "<br>";
+	// echo $hash . "<br>";
+
+	// $pswd = "denis";
+	
+	// $out = checkHash($pswd, $hash);
+	// echo $out;
+	// $login = "denis";
+	// var_dump(userExists($login));
+	// //echo $result;
+	// if (is_file(FILE_NAME)) {
+	// 	echo "yes";
+	// } else {
+	// 	echo "no";
+	// }
+
+	 ?>
+	
+
 </body>
 </html>

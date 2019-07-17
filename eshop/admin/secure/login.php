@@ -1,6 +1,37 @@
 <?
 $title = 'Авторизация';
 $login  = '';
+
+session_start();
+header("HTTP/1.0 401 Unauthorized");
+require_once 'secure.inc.php';
+
+if ($_SERVER['REQUEST_METHOD'] == "POST") {
+	$login = trim(strip_tags($_POST['login']));
+	$pw = trim(strip_tags($_POST['pw']));
+	$ref = trim(strip_tags($_GET['ref']));
+	if (!$ref) {
+		$ref = 'eshop/admin/';
+	}
+	if ($login and $pw) {
+		if ($result = userExists($login)) {
+			list($_, $hash) = explode(':', $result);
+			if (checkHash($pw, $hash)) {
+				$_SESSION['admin'] == true;
+				header("Location: $ref");
+				exit;
+			} else {
+				$title = 'Неправильное имя пользователя или пароль!';
+			}
+		}	else {
+			$title = 'Неправильное имя пользователя или пароль!';
+		}
+	} else {
+		$title = 'Заполните все поля формы!';
+	}
+}
+
+
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -23,5 +54,23 @@ $login  = '';
 			<button type="submit">Войти</button>
 		</div>	
 	</form>
+
+	<?php 
+
+	// $login = "lera";
+	// $result = userExists($login);
+	// list($_, $hash) = explode(':', $result);
+
+	// echo $result . "<br>";
+	// echo $_ . "<br>";
+	// echo $hash . "<br>";
+	// echo $login . "<br>";
+
+
+	// var_dump(checkHash($login, $hash));
+	
+
+
+	 ?>
 </body>
 </html>

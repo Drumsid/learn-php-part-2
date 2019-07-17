@@ -43,6 +43,20 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
 	<div>
 		<button type="submit">Создать</button>
 	</div>	
+	<?php 
+	// $users = file(FILE_NAME);
+
+	// 	foreach ($users as $user) {
+	// 	if (strpos($user, $login . ':') !== false) {
+	// 		echo $user;
+	// 	}}
+
+	// echo $login;	
+	// echo "<pre>";
+	// var_dump($users);
+	// echo "</pre>";
+	 ?>
 </form>
+<a href="http://specialist2/eshop/admin/">adminka</a>
 </body>
 </html>

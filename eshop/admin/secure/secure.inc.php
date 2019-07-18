@@ -2,7 +2,7 @@
 define('FILE_NAME', '.htpasswd');
 
 function getHash($password){
-	$hash = password_hash($password, PASSWORD_BCRYPT);
+	$hash = password_hash($password, PASSWORD_DEFAULT); //, PASSWORD_BCRYPT
 	return $hash;
 }
 

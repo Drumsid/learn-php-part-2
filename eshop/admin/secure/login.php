@@ -21,10 +21,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 				header("Location: $ref");
 				exit;
 			} else {
-				$title = 'Неправильное имя пользователя или пароль!';
+				$title = 'Неправильное имя пользователя или пароль!2';
 			}
 		}	else {
-			$title = 'Неправильное имя пользователя или пароль!';
+			$title = 'Неправильное имя пользователя или пароль!1';
 		}
 	} else {
 		$title = 'Заполните все поля формы!';
@@ -56,18 +56,27 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 	</form>
 
 	<?php 
+// это я пытаюсь понять где ошибка
+	$login = "root";
+	$result = userExists($login);
+	list($_, $hash) = explode(':', $result);
 
-	// $login = "lera";
-	// $result = userExists($login);
-	// list($_, $hash) = explode(':', $result);
+	var_dump($result) . "<br>";
+	echo "<hr>";
+	var_dump($_) . "<br>";
+	echo "<hr>";
+	var_dump($hash) . "<br>";
+	echo "<hr>";
+	var_dump($login) . "<br>";
+	echo "<hr>";
+	$pass = "1234";
+	echo "<hr>";
 
-	// echo $result . "<br>";
-	// echo $_ . "<br>";
-	// echo $hash . "<br>";
-	// echo $login . "<br>";
 
-
-	// var_dump(checkHash($login, $hash));
+	var_dump(checkHash($pass, $hash));
+	echo "<hr>";
+	var_dump($_POST) . "<br>";
+	echo "<hr>";
 	
 
 

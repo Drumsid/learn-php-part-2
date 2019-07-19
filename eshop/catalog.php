@@ -14,6 +14,7 @@
 </head>
 <body>
 <p>Товаров в <a href="basket.php">корзине</a>: <?= $count?></p>
+<p><a href="admin/index.php">админка</a></p>
 <table border="1" cellpadding="5" cellspacing="0" width="100%">
 <tr>
 	<th>Название</th>

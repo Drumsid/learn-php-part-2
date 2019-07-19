@@ -11,13 +11,13 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 	$pw = trim(strip_tags($_POST['pw']));
 	$ref = trim(strip_tags($_GET['ref']));
 	if (!$ref) {
-		$ref = 'eshop/admin/';
+		$ref = '/eshop/admin/';
 	}
 	if ($login and $pw) {
 		if ($result = userExists($login)) {
 			list($_, $hash) = explode(':', $result);
 			if (checkHash($pw, $hash)) {
-				$_SESSION['admin'] == true;
+				$_SESSION['admin'] = true;
 				header("Location: $ref");
 				exit;
 			} else {
@@ -40,7 +40,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 	<meta charset="utf-8">
 </head>
 <body>
-	<h1><?= $title?></h1>
+	<h1><?= $title?></h1><p>чтоб зайти в админку без пароля, надо закоментить уод в файле admin/secure/session.inc.php</p>
+	<p>по умолчанию логин <b>root</b> пароль <b>1234</b> </p>
 	<form action="<?= $_SERVER['REQUEST_URI']?>" method="post">
 		<div>
 			<label for="txtUser">Логин</label>
@@ -57,26 +58,28 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 	<?php 
 // это я пытаюсь понять где ошибка
-	$login = "root";
-	$result = userExists($login);
-	list($_, $hash) = explode(':', $result);
+	// $login = "root";
+	// $result = userExists($login);
+	// list($_, $hash) = explode(':', $result);
 
-	var_dump($result) . "<br>";
-	echo "<hr>";
-	var_dump($_) . "<br>";
-	echo "<hr>";
-	var_dump($hash) . "<br>";
-	echo "<hr>";
-	var_dump($login) . "<br>";
-	echo "<hr>";
-	$pass = "1234";
-	echo "<hr>";
+	// var_dump($result) . "<br>";
+	// echo "<hr>";
+	// var_dump($_) . "<br>";
+	// echo "<hr>";
+	// var_dump(str_replace(array("\r\n", "\r", "\n"), '', $hash)) . "<br>";
+	// echo "<hr>";
+	// var_dump($login) . "<br>";
+	// echo "<hr>";
+	// $pass = "1234";
+	// echo "<hr>";
 
 
-	var_dump(checkHash($pass, $hash));
-	echo "<hr>";
-	var_dump($_POST) . "<br>";
-	echo "<hr>";
+	// var_dump(checkHash($pass, $hash));
+	// echo "<hr>";
+	// var_dump($_POST) . "<br>";
+	// echo "<hr>";
+	// var_dump($_SESSION) . "<br>";
+	// echo "<hr>";
 	
 
 

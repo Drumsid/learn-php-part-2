@@ -7,6 +7,7 @@ function getHash($password){
 }
 
 function checkHash($password, $hash){
+	$hash = str_replace(array("\r\n", "\r", "\n"), '', $hash);
 	return password_verify($password, $hash);
 }
 
